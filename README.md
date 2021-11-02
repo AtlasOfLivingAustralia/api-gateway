@@ -32,7 +32,7 @@ The JSON web token will contain user ID and Roles. The JWT will be accessible to
 * Sensitive data access for a specific region in the Biocache service.
 
 #### JWT Verification and accessing roles/userID
-The verification of the JWT and extraction of userID and roles will be done by a Grails plugin for grails based applications which should limited the amount of JWT logic spread in Atlas applications.
+The verification of the JWT and extraction of userID and roles will be done by a Grails plugin for grails based applications (see issues#1) which should limited the amount of JWT logic spread in Atlas applications.
 
 <img width="297" alt="Screen Shot 2021-11-02 at 12 03 02 pm" src="https://user-images.githubusercontent.com/444897/139842699-d146a824-7856-400e-9c3b-444df6fee211.png">
 

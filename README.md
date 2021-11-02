@@ -50,7 +50,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
   "city": "Sydney",
   "iss": "auth.ala.org.au",
   "organisation": "MyOrg",
-  "given_name": "David",
+  "given_name": "Derek",
   "userid": 43956,
   "aud": "oidc-test-client-id",
   "nbf": 1635854927,
@@ -58,7 +58,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
   "state": "NSW",
   "exp": 1635854927,
   "iat": 1635853127,
-  "family_name": "Martin",
+  "family_name": "Smith",
   "email": "my@email.com"
 }
 

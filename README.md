@@ -77,6 +77,7 @@ An application will need to create an ALA account to obtain an API key which wil
 
 The current system for application to application authentication which uses the [apikey](https://github.com/atlasoflivingaustralia/apikey) which is only used internally (i.e. not accessible for the third parties) will be phased out over time.
 Support in the short term for legacy API keys will continue (through the ala-ws-security-plugin) but will gradually be phased out in favour of JWT support.
+This means that the Authorizer implemented in Gateway will, in the short term, allow authorisation using the legacy API Key method until a time when the dependent front end applications have been modified to use Spring Security / OIDC and JWT.
 
 
 

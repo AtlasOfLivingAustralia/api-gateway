@@ -13,7 +13,7 @@ For browser or mobile applications based applications that can make use of OAuth
 
 ## Non-OIDC based access
 
-For applications that are not using a browser, there will be services allowing for the creation of JSON Web Tokens either by using Basic Authentication or an API Key/Secret mechanism (both have been protoyped - decision pending). Once generated, the JWT will be submitted with a request in the ```Authorization``` header. 
+For applications that are not using a browser, there will be services allowing for the creation of JSON Web Tokens either by using [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication) or an API Key/Secret mechanism (both have been protoyped - decision pending). Once generated, the JWT will be submitted with a request in the ```Authorization``` header. 
 
 <img width="815" alt="Screen Shot 2021-11-02 at 12 02 30 pm" src="https://user-images.githubusercontent.com/444897/139842663-ad70c594-f11e-4586-b8aa-7b25d2de6739.png">
 

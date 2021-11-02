@@ -8,14 +8,14 @@ There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
 ## OIDC access
 
 For browser or mobile application based applications that can make use of OAuth SDKs.
+<img width="1002" alt="Screen Shot 2021-11-02 at 11 56 05 am" src="https://user-images.githubusercontent.com/444897/139841804-7bc92c74-8434-4102-a5db-e314c4eedb4d.png">
 
-<img width="1079" alt="Screen Shot 2021-11-01 at 8 59 58 am" src="https://user-images.githubusercontent.com/444897/139836601-3203bdc0-678e-4460-a5da-cca336d1e3eb.png">
 
 ## Non-OIDC based access
 
 For applications that are not using browser, there will be services allowing for the creation of JSON Web Tokens either by using Basic Authentication or an API Key/Secret mechanism (yet to be determined). Once the JWT is generated, it will be submitted with an requests in the ```Authorization``` header. 
+<img width="826" alt="Screen Shot 2021-11-02 at 11 55 55 am" src="https://user-images.githubusercontent.com/444897/139841820-80b1d478-4018-4561-b459-c414142919ba.png">
 
-<img width="911" alt="Screen Shot 2021-11-01 at 8 59 41 am" src="https://user-images.githubusercontent.com/444897/139836615-c65e4945-afcd-45a7-bbd7-13b884d34832.png">
 
 # Authentication flow
 

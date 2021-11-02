@@ -8,14 +8,14 @@ There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
 ## OIDC access
 
 For browser or mobile application based applications that can make use of OAuth SDKs.
-<img width="1002" alt="Screen Shot 2021-11-02 at 11 56 05 am" src="https://user-images.githubusercontent.com/444897/139841804-7bc92c74-8434-4102-a5db-e314c4eedb4d.png">
 
+<img width="999" alt="Screen Shot 2021-11-02 at 12 02 19 pm" src="https://user-images.githubusercontent.com/444897/139842638-e96e1d4b-da73-48ea-b1db-56cd4f5e1e4a.png">
 
 ## Non-OIDC based access
 
 For applications that are not using browser, there will be services allowing for the creation of JSON Web Tokens either by using Basic Authentication or an API Key/Secret mechanism (yet to be determined). Once the JWT is generated, it will be submitted with an requests in the ```Authorization``` header. 
-<img width="826" alt="Screen Shot 2021-11-02 at 11 55 55 am" src="https://user-images.githubusercontent.com/444897/139841820-80b1d478-4018-4561-b459-c414142919ba.png">
 
+<img width="815" alt="Screen Shot 2021-11-02 at 12 02 30 pm" src="https://user-images.githubusercontent.com/444897/139842663-ad70c594-f11e-4586-b8aa-7b25d2de6739.png">
 
 # Authentication flow
 
@@ -33,7 +33,8 @@ The JSON web token will contain user ID and Roles. The JWT will be accessible to
 #### JWT Verification and accessing roles/userID
 The verification of the JWT and extraction of userID and roles will be done by a Grails plugin for grails based applications which should limited the amount of JWT logic spread in Atlas applications.
 
-<img width="477" alt="Screen Shot 2021-10-31 at 3 30 23 pm" src="https://user-images.githubusercontent.com/444897/139836634-36865255-021a-4973-8e0c-8a865f247146.png">
+<img width="297" alt="Screen Shot 2021-11-02 at 12 03 02 pm" src="https://user-images.githubusercontent.com/444897/139842699-d146a824-7856-400e-9c3b-444df6fee211.png">
+
 
 ### Example JWT
 

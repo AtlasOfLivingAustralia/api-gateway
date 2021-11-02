@@ -7,7 +7,7 @@ There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
 
 ## OIDC access
 
-For browser or mobile application based applications that can make use of OAuth SDKs.
+For browser or mobile applications based applications that can make use of OAuth SDKs or Spring Security to generate a JWT.
 
 <img width="999" alt="Screen Shot 2021-11-02 at 12 02 19 pm" src="https://user-images.githubusercontent.com/444897/139842638-e96e1d4b-da73-48ea-b1db-56cd4f5e1e4a.png">
 

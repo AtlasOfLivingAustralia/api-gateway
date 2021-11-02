@@ -25,11 +25,13 @@ All requests will require both a JWT and an API Key.
 The API key is used for monitoring only and will be only used/checked at the Gateway level. The backend webservices will not make use of this API key for authorisation or authentication.
 
 ### JSON Web Token (JWT)
-The JSON web token will contain user ID and Roles. The JWT will be accessible to backend webservices. This will allow the backend end webservices to apply their own access control based on roles and/or user ID. 
-
+The JSON web token will contain user ID and Roles. The JWT will be accessible to backend webservices. This will allow the backend end webservices to apply their own access control based on roles and/or user ID.  
 #### Examples: 
 * project level access in Ecodata
 * sensitive data access for a specific region in the biocache service.
+
+#### JWT Verification and accessing roles/userID
+The verification of the JWT and extraction of userID and roles will be done by a Grails plugin for grails based applications which should limited the amount of JWT logic spread in Atlas applications.
 
 <img width="477" alt="Screen Shot 2021-10-31 at 3 30 23 pm" src="https://user-images.githubusercontent.com/444897/139836634-36865255-021a-4973-8e0c-8a865f247146.png">
 

@@ -70,7 +70,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
 
 Both user and applications will be registered as "users" in the [UserDetails](https://github.com/atlasoflivingaustralia/userdetails) app. 
 Roles will be assignable to applications in the same way they are currently assigned to users.
-An application will need to create an ALA account to obtain an API key which will be used. 
+An application will need to create an ALA account to obtain an API key which will be sent with each request. 
 
 
 # Legacy API Keys

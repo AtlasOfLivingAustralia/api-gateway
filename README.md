@@ -26,7 +26,7 @@ The API key is used for monitoring only and will be only used/checked at the Gat
 
 ### JSON Web Token (JWT)
 The JSON web token will contain user ID and Roles. The JWT will be accessible to backend webservices. This will allow the backend end webservices to apply their own access control based on roles and/or user ID.  
-#### Examples: 
+#### Examples of app-based access control: 
 * project level access in Ecodata
 * sensitive data access for a specific region in the biocache service.
 

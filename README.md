@@ -3,17 +3,17 @@
 This repository is an issues & documentation repository for managing the delivery of the API Gateway for the Atlas.
 
 The API gateway will provide a **single entry point** for all Atlas webservice services and will include an **enhanced authentication model** for web service users.
-There will be two types of access supported.
+There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
 
-## OAuth access
+## OIDC access
 
-For browser or mobile application based applications.
+For browser or mobile application based applications that can make use of OAuth SDKs.
 
 <img width="1079" alt="Screen Shot 2021-11-01 at 8 59 58 am" src="https://user-images.githubusercontent.com/444897/139836601-3203bdc0-678e-4460-a5da-cca336d1e3eb.png">
 
-## Non-OAuth access
+## Non-OIDC based access
 
-For applications that are not using browser.
+For applications that are not using browser, there will be services allowing for the creation of JSON Web Tokens either by using Basic Authentication or an API Key/Secret mechanism (yet to be determined). Once the JWT is generated, it will be submitted with an requests in the ```Authorization``` header. 
 
 <img width="911" alt="Screen Shot 2021-11-01 at 8 59 41 am" src="https://user-images.githubusercontent.com/444897/139836615-c65e4945-afcd-45a7-bbd7-13b884d34832.png">
 
@@ -68,3 +68,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
 # Legacy API Keys
 
 The current system for application to application authentication which uses the [apikey](https://github.com/atlasoflivingaustralia/apikey) which is only used internally (i.e. not accessible for the third parties) will be phased out over time.
+Support in the short term for legacy API keys will continue (through the ala-ws-security-plugin) but will gradually be phased out in favour of JWT support.
+
+
+

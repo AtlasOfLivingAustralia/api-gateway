@@ -5,7 +5,7 @@ This repository is an issues & documentation repository for managing the deliver
 The API gateway will provide a **single entry point** for all Atlas webservice services and will include an **enhanced authentication model** for web service users.
 There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
 
-## OIDC access
+## OpenID Connect (OIDC) access
 
 For browser or mobile applications based applications that can make use of OAuth SDKs or Spring Security to generate [JSON Web Tokens (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token).
 

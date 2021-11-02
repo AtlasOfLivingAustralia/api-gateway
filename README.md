@@ -44,7 +44,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
 {
   "country": "AU",
   "role": [
-    "ROLE_ADMIN",
+    "ROLE_COLLECTIONS_ADMIN",
     "ROLE_USER"
   ],
   "city": "Sydney",
@@ -54,7 +54,7 @@ A JSON Web Token is signed allowing the backend webservices to verify its source
   "userid": 43956,
   "aud": "oidc-test-client-id",
   "nbf": 1635854927,
-  "authority": "ROLE_ADMIN,ROLE_USER",
+  "authority": "ROLE_COLLECTIONS_ADMIN,ROLE_USER",
   "state": "NSW",
   "exp": 1635854927,
   "iat": 1635853127,

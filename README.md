@@ -3,7 +3,9 @@
 This repository is an issues & documentation repository for managing the delivery of the API Gateway for the Atlas.
 
 The API gateway will provide a **single entry point** for all Atlas webservice services and will include an **enhanced authentication model** for web service users.
-There will be two types of access supported: 1) OIDC access 2) Non-OIDC access
+There will be two types of access supported: 
+1. OIDC access - browser based 
+2. Non-OIDC access - non-browser based
 
 ## OpenID Connect (OIDC) access
 
